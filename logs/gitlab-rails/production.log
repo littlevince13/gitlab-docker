@@ -1,0 +1,17 @@
+Raven 2.9.0 configured not to capture errors: DSN not set
+Creating scope :of_projects. Overwriting existing method MergeRequest.of_projects.
+Creating scope :join_project. Overwriting existing method MergeRequest.join_project.
+Creating scope :references_project. Overwriting existing method MergeRequest.references_project.
+Creating scope :system. Overwriting existing method Note.system.
+Creating scope :without_statuses. Overwriting existing method CommitStatus.without_statuses.
+An enum element in Ci::Runner uses the prefix 'not_'. This will cause a conflict with auto generated negative scopes.
+Creating scope :order_name_asc. Overwriting existing method Member.order_name_asc.
+Creating scope :order_name_desc. Overwriting existing method Member.order_name_desc.
+Creating scope :system. Overwriting existing method Gitlab::DatabaseImporters::CommonMetrics::PrometheusMetric.system.
+Raven 2.9.0 configured not to capture errors: DSN not set
+Creating scope :of_projects. Overwriting existing method MergeRequest.of_projects.
+Creating scope :join_project. Overwriting existing method MergeRequest.join_project.
+Creating scope :references_project. Overwriting existing method MergeRequest.references_project.
+Creating scope :system. Overwriting existing method Note.system.
+Creating scope :without_statuses. Overwriting existing method CommitStatus.without_statuses.
+An enum element in Ci::Runner uses the prefix 'not_'. This will cause a conflict with auto generated negative scopes.

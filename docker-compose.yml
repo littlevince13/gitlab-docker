@@ -1,0 +1,19 @@
+version: '3.2'
+services:
+ 
+  gitlab:
+    image: gitlab/gitlab-ce:latest
+    hostname: gitlab
+    container_name: gitlab
+    volumes:
+      - ./config:/etc/gitlab
+      - ./logs:/var/log/gitlab
+      - ./data:/var/opt/gitlab
+    ports:
+      - 4430:443
+      - 8090:80
+    networks:
+      - devel-net
+ 
+networks:
+  devel-net:
